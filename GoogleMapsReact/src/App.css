@@ -1,0 +1,105 @@
+body 
+{
+  background-color: #212121;
+  color: beige;
+  font-weight: 550;
+}
+
+.map-container 
+{
+  margin-left: -539px;
+  margin-top: -39px;
+  height: 100%;
+  width: 1700px;
+}
+
+.header 
+{
+  position: absolute;
+  top: 0;
+  margin-left: 10%;
+  margin-top: 9%;
+  width: 90%;
+  background: #3f3c3c;
+  color: #fff;
+  padding: 10px;
+  z-index: 100;
+  border-radius: 10px;
+}
+
+.input-container 
+{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.input-container input 
+{
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  flex: 1;
+  max-width: 200px;
+}
+
+.input-container button, .center 
+{
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.center 
+{
+  margin-left: 43%;
+  margin-top: 2%;
+}
+
+.calculate 
+{
+  display: flex;
+  justify-content: center;
+
+  margin-left: -35px;
+}
+.calculate button 
+{
+  margin-left: 10px;
+  margin-top: 10px;
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.info-container 
+{
+  position: absolute;
+  bottom: 20px;
+  left: 57%;
+  transform: translateX(-50%);
+  background: #3f3c3c;
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: #fff;
+  z-index: 100;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.distance-duration 
+{
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.distance-duration p 
+{
+  margin: 0;
+  padding: 5px;
+  font-size: 1rem;
+}
